@@ -1,0 +1,36 @@
+{
+  // Main Configuration
+  "System": {
+    "refreshRate": "default", // Global refresh setting - slow, default, priority
+    "debug": false
+  },
+  // Exchanges config
+  "Exchanges": {
+    "bitfinex": {
+      "enabled": true
+    },
+    "poloniex": {
+      "enabled": true,
+    },
+    "binance": {
+      "enabled": false,
+    },
+    "okex": {
+      "enabled": false,
+    },
+    "gdax": {
+      "enabled": true,
+    }
+  },
+  // Data sources config
+  "Sources": {
+    "twitter": {
+      "apikey": "key",
+      "apisecret": "secret"
+    },
+    "coinmarketcap": {
+      "apikey": "key",
+      "apisecret": "secret"
+    }
+  }
+}

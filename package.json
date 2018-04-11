@@ -1,0 +1,14 @@
+{
+  "name": "blackdown-data",
+  "version": "1.0.0",
+  "description": "Financial data harvester",
+  "author": "Tom Whitbread",
+  "license": "MIT",
+  "dependencies": {
+    "config": "^1.30.0",
+    "debug": "^3.1.0",
+    "gdax": "^0.6.0",
+    "request": "^2.85.0",
+    "store2": "^2.7.0"
+  }
+}
