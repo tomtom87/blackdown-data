@@ -7,7 +7,7 @@ As much information that we can ream from the markets is harvested here and pre-
 First clone the repository and install packages
 
 ```
-git clone blackdown-data
+git clone git@github.com:tomtom87/blackdown-data.git
 cd blackdown-data
 npm install
 ```
