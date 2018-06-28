@@ -12,14 +12,14 @@ cd blackdown-data
 npm install
 ```
 
-Now you can start data aquisition with `node init.js` read the code for more information
+Now you can start data acquisition with `node init.js` read the code for more information
 
 ## Configuration file
 
 Look inside `config/default.json` which is the default configuration for the application. Most options are self explanatory and commented, if you have any requirement for new options please create a issue.
 
 
-*The following exchange orderbooks are available:*
+*The following exchange order books are available:*
 - Bitfinex
 - Poloniex
 - GDAX
@@ -28,8 +28,7 @@ Look inside `config/default.json` which is the default configuration for the app
 - coinmarketcap (via API)
 - investing.com (via embedded widgets and API)
 - twitter.com (via API)
-- klout.com (via API)
-- bloomberg.com
+- bloomberg.com (via HTTP)
 
 
 ## Future of the project
@@ -47,3 +46,7 @@ We are in active development on this project and hope to add more to it in the c
 - BTCC
 - Kraken
 - Gemini
+
+*Planned future modules*
+- Dynamic Lending Management & FRR
+-
