@@ -15,12 +15,12 @@ for(var exchange in config.Exchanges){
   if(config.Exchanges[exchange].enabled){
     // Get exchanges API data
     //console.log(exchange +" "+ config.Exchanges[exchange].enabled);
-    Blackdown.loadExchange(exchange);
+    //Blackdown.loadExchange(exchange);
   }
-  
 }
 
-// Run Checks on last data for any conditions and update
+// Run Checks on last data for any conditions and update events
+Blackdown.watchVolume('binance');
 
 // Perform house keeping
 
